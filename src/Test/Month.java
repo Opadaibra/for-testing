@@ -3,7 +3,6 @@ package Test;
 public class Month {
     String month;
     Month(){
-        System.out.println("Hello from Month");
     }
 
     public String getMonth() {
@@ -13,5 +12,10 @@ public class Month {
     public Month setMonth(String month) {
         this.month = month;
         return this;
+    }
+
+    @Override
+    public String toString() {
+        return month;
     }
 }

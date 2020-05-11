@@ -3,7 +3,7 @@ package Test;
 public class Today {
         String day;
         Today(){
-            System.out.println("Hello from Today");
+
         }
 
         public String getDay() {
@@ -15,4 +15,8 @@ public class Today {
             return this;
         }
 
+    @Override
+    public String toString() {
+        return day ;
+    }
 }

@@ -4,7 +4,7 @@ public class Year {
     private String Year;
 
     Year() {
-        System.out.println("Hello from year");
+
     }
 
     public String getYear() {
@@ -14,5 +14,10 @@ public class Year {
     public Year setYear(String year) {
         Year = year;
         return this;
+    }
+
+    @Override
+    public String toString() {
+        return Year ;
     }
 }
